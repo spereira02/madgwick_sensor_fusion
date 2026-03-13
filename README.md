@@ -1,4 +1,4 @@
-Part of the Fullstack IMU pipeline project: [**https://github.com/spereira02/Fullstack_imu_filter**]
+Part of the Fullstack IMU pipeline project: **[https://github.com/spereira02/Fullstack_imu_filter]**
 # madgwick_sensor_fusion
 
 ## Overview
@@ -8,6 +8,7 @@ This repository implements the **ROS 2 side of an IMU processing pipeline**.
 Raw IMU measurements are produced by an **ESP32 micro-ROS client** (see the firmware repository) and published to the ROS 2 graph via the **micro-ROS Agent**.
 
 This package launches the **Madgwick orientation filter**, which estimates IMU orientation from accelerometer, gyroscope, and magnetometer data. The resulting orientation is visualized in **RViz**.
+
 ---
 
 ## System Architecture
