@@ -11,7 +11,10 @@ This package launches the **Madgwick orientation filter**, which estimates IMU o
 
 This repository therefore represents **Step 2 of the IMU processing pipeline**.
 
-➡️ Firmware repository:  
+The full system — including ROS 2 integration, sensor fusion using the **Madgwick filter**, and RViz visualization — is documented in the main project repository:  
+**[https://github.com/spereira02/Fullstack_imu_filter]**
+
+Firmware repository:  
 https://github.com/spereira02/esp32_firmware
 
 ---
