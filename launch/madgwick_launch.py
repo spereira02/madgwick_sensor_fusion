@@ -21,7 +21,7 @@ def generate_launch_description():
             executable='micro_ros_agent',
             name='micro_ros_agent',
             output='screen',
-            arguments=['serial', '--dev', '/dev/ttyUSB0']
+            arguments=['serial', '--dev', '/dev/ttyUSB0', '--baudrate', '921600']
         ),
         Node(
             package='rviz2',
